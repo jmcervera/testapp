@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 # Dependencies for the playground
+gem 'dotenv'
+
 gem "dry-types"
 gem "rom",            github: "rom-rb/rom"
 gem "rom-mapper",     github: "rom-rb/rom-mapper"
